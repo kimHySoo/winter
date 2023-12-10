@@ -1,0 +1,232 @@
+@charset "utf-8"
+html {
+	font-size:100%;
+}
+
+body {
+  width: 192rem;
+}.desktop {
+  width: 192rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+.desktop .group-1 {
+
+  padding: 1.7rem 41rem 8.7rem 41rem;
+  width: 200rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('./head.jpg');
+}
+.desktop .group-1 .headlink {
+  margin-bottom: 5.9rem;
+  width: 110rem;
+  display: flex;
+  align-items: center;
+}
+.desktop .group-1 .headlink .home {
+  margin-right: 48.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3.6rem;
+  font-weight: 400;
+  line-height: 1.2102272246;
+  color: #000000;
+  font-family: "맑은 고딕";
+  white-space: nowrap;
+
+}
+.desktop .group-1 .headlink .spring {
+  margin-right: 2.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 1.2102272034;
+  color: #000000;
+  font-family: "맑은 고딕";
+  white-space: nowrap;
+
+}
+.desktop .group-1 .headlink .summer {
+  margin-right: 2.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 1.2102272034;
+  color: #000000;
+  font-family: "맑은 고딕";
+  white-space: nowrap;
+  
+}
+.desktop .group-1 .headlink .autumn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 1.2102272034;
+  color: #000000;
+  font-family: "맑은 고딕";
+  white-space: nowrap;
+
+}
+
+.desktop .group-1 .headname {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 5rem;
+  font-weight: 400;
+  line-height: 1.2102272797;
+  color: #000000;
+  font-family: "맑은 고딕";
+  white-space: nowrap;
+
+}
+.desktop .maintext {
+  box-sizing: border-box;
+  padding: 3.8rem 41.7rem 6.4rem 41rem;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+
+}
+.desktop .maintext .group-2 {
+  margin-bottom: 5.6rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.desktop .maintext .group-2 .news {
+  width: 100%;
+  display: flex;
+  text-algin: center;
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 1.2102272797;
+  color: #000000;
+  font-family: "맑은 고딕";
+  white-space: nowrap;
+}
+.desktop .maintext .group-2 .group-3 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.desktop .maintext .group-2 .group-3 .main {
+  margin-right: 0.2rem;
+  width: 64rem;
+  height: 40rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.desktop .maintext .group-2 .group-3 .text-1 {
+  margin-top: 5.9rem;
+  max-width: 49.2rem;
+  display: flex;
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 1.2102272797;
+  color: #000000;
+  font-family: "맑은 고딕";
+}
+.desktop .maintext .group-4 {
+  margin-left: 1.1rem;
+  width: calc(100% - 1.1rem);
+  height: 35rem;
+  display: flex;
+  align-items: center;
+}
+.desktop .maintext .group-4 .group-5 {
+
+  padding-right: 1.6rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.desktop .maintext .group-4 .group-5 .group-6 {
+  margin: 0rem 1.6rem 0rem 0rem;
+  height: 35rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.desktop .maintext .group-4 .group-5 .group-6 .body-1 {
+  margin-bottom: 0.625rem;
+  width: 35rem;
+  height: 28.875rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.desktop .maintext .group-4 .group-5 .group-6 .item-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3.6rem;
+  font-weight: 400;
+  line-height: 1.2102272246;
+  color: #000000;
+  font-family: "맑은 고딕";
+  white-space: nowrap;
+}
+.desktop .maintext .group-4 .group-5 .group-7 {
+  margin-bottom: 0rem;
+  height: 35rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.desktop .maintext .group-4 .group-5 .group-7 .body-2 {
+  margin-bottom: 0.0833rem;
+  width: 35rem;
+  height: 28.875rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.desktop .maintext .group-4 .group-5 .group-7 .item-2 {
+  margin-right: 0.7459rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3.6rem;
+  font-weight: 400;
+  line-height: 1.2102272246;
+  color: #000000;
+  font-family: "맑은 고딕";
+  white-space: nowrap;
+}
+.desktop .maintext .group-4 .group-8 {
+  height: 35rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.desktop .maintext .group-4 .group-8 .body-3 {
+  margin-bottom: 0.6646rem;
+  width: 35rem;
+  height: 28.875rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.desktop .maintext .group-4 .group-8 .item-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3.6rem;
+  font-weight: 400;
+  line-height: 1.2102272246;
+  color: #000000;
+  font-family: "맑은 고딕";
+  white-space: nowrap;
+}
